@@ -8,3 +8,4 @@ RUN git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus
 # RUN git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts && pip install -r ./ComfyUI-Custom-Scripts/requirements.txt
 
 
+
