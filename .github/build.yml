@@ -36,4 +36,4 @@ jobs:
             platforms: linux/amd64
             push: true
             tags: |
-                ${{ secrets.DOCKERHUB_USERNAME }}/StudentWarehouse:latest
+                ${{ secrets.DOCKERHUB_USERNAME }}/runpod-worker-comfy:latest
