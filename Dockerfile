@@ -1,4 +1,4 @@
-FROM timpietruskyblibla/runpod-worker-comfy:3.4.0-base
+FROM timpietruskyblibla/runpod-worker-comfy:3.6.0-base
 
 WORKDIR /comfyui/custom_nodes/
 # 没有依赖
