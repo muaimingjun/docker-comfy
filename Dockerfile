@@ -1,4 +1,4 @@
-FROM timpietruskyblibla/runpod-worker-comfy:3.6.0-base
+FROM runpod/worker-comfyui:5.2.0-base
 
 WORKDIR /comfyui/custom_nodes/
 # 升级 pip
