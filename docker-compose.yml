@@ -12,8 +12,10 @@ services:
     environment:
       - SERVE_API_LOCALLY=true
     ports:
-      - "8000:8000"
-      - "8188:8188"
+      - 8000:8000
+      - 8188:8188
     volumes:
       - ./data/comfyui/output:/comfyui/output
+      - ./data/comfyui/custom_nodes:/comfyui/custom_nodes
+      - ./data/comfyui/models/models:/comfyui/models
       - ./data/runpod-volume:/runpod-volume
