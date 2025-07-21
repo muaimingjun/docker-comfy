@@ -36,4 +36,4 @@ jobs:
             platforms: linux/amd64
             push: true
             tags: |
-                 mingjun/runpod-worker-comfy:latest
+                 harbor.suanleme.cn/mingjun/runpod-worker-comfy:latest
