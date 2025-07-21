@@ -37,4 +37,4 @@ jobs:
             platforms: linux/amd64
             push: true
             tags: |
-                yicheng123/runpod-worker-comfy:latest
+                ${{ secrets.DOCKERHUB_USERNAME }}/runpod-worker-comfy:latest
