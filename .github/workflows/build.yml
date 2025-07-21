@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - v*
     paths:
       - 'Dockerfile'
 
@@ -37,4 +36,4 @@ jobs:
             platforms: linux/amd64
             push: true
             tags: |
-                mingjun/runpod-worker-comfy:latest
+                 mingjun/runpod-worker-comfy:latest
