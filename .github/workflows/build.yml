@@ -3,7 +3,7 @@ name: Build-Dockerhub
 on:
   push:
     branches:
-      - 主干
+      - main
     paths:
       - 'Dockerfile'
 
