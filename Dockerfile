@@ -4,6 +4,8 @@ WORKDIR /comfyui/custom_nodes/
 # 升级 pip
 RUN pip install --upgrade pip
 
+
+
 # 没有依赖
 # RUN git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts
 #RUN git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus
