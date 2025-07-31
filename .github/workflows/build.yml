@@ -3,7 +3,7 @@ name: Build-Dockerhub
 on:
   push:
     branches:
-      - main
+      - 主干
     paths:
       - 'Dockerfile'
 
@@ -36,4 +36,4 @@ jobs:
             platforms: linux/amd64
             push: true
             tags: |
-                 harbor.suanleme.cn/mingjun/runpod-worker-comfy:latest
+                 docker.io/${{ secrets.DOCKERHUB_USERNAME }}/runpod-worker-comfy:latest
