@@ -4,13 +4,11 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'Dockerfile'
 
   
 jobs:
   publish-docker:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: 拉取源码
         uses: actions/checkout@v3
